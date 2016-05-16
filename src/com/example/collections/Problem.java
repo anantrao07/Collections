@@ -80,7 +80,7 @@ public class Problem {
 	
 		for(Entry<Integer, Integer> htable:ht.entrySet())
 		{
-			System.out.println("value of "+htable.getKey() + " " + htable.getValue());
+			System.out.println("frequency of  "+htable.getKey() + " " + htable.getValue());
 		}
 		}
 	}
