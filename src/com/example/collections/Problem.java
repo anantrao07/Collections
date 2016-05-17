@@ -13,6 +13,8 @@ public class Problem {
 		Hashtable<Integer,Integer> ht = new Hashtable<Integer , Integer>();
 		 ArrayList<Integer> a = new ArrayList<Integer>();
 		 ArrayList<Integer> b = new ArrayList<Integer>();
+		 
+		 
 		 Random r = new Random();
 		 //r.nextInt(13);
 		for(int i = 0 ; i<11; i++){
@@ -33,6 +35,7 @@ public class Problem {
 		}
 		System.out.println(" ");
 		
+	
 		for(int i = 0 ; i< a.size() ; i++){
 			
 			//System.out.print("value of i is "+ i);
