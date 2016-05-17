@@ -13,9 +13,16 @@ public class HashTable {
 
 	public void sort(Hashtable<Integer, String> ht){
 		
-		ArrayList<Integer> marks  = Collections.list(ht.keys());
+		
+ArrayList<Integer> marks  = Collections.list(ht.keys());
 		
 		Collections.sort(marks);
+		
+		for(int sorted : marks){
+			
+			
+			System.out.println("marks sorted are "+(sorted)+ " "+ ht.get(sorted));// + " "+ sorted.getValue());
+		}
 		
 	}
 	public static void main(String[] args) {
@@ -41,11 +48,12 @@ public class HashTable {
 		
 		Collections.sort(marks);
 		
-		for(int sorted : marks){
+		ht.sort(names);
+		/*for(int sorted : marks){
 			
 			
 			System.out.println("marks sorted are "+(sorted)+ " "+ names.get(sorted));// + " "+ sorted.getValue());
-		}
+		}*/
 	}
 
 }
