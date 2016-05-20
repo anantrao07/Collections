@@ -49,11 +49,7 @@ ArrayList<Integer> marks  = Collections.list(ht.keys());
 		Collections.sort(marks);
 		
 		ht.sort(names);
-		/*for(int sorted : marks){
-			
-			
-			System.out.println("marks sorted are "+(sorted)+ " "+ names.get(sorted));// + " "+ sorted.getValue());
-		}*/
+		
 	}
 
 }
